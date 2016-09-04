@@ -1,0 +1,19 @@
+{
+  "name": "onlineshopping",
+  "version": "1.0.0",
+  "description": "MEAN APP",
+  "main": "practice.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "2.2.4",
+    "mongodb": "2.0.35",
+    "underscore": "1.5.2"
+  },
+  "author": "Awdesh Sharma <awdesh.sharma1@gmail.com> (http://awdesh.com/)",
+  "license": "ISC"
+}
