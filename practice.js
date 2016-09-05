@@ -1,6 +1,10 @@
 var _ = require("underscore");
 var mongodb = require('mongodb');
+var mongoose = require('mongoose');
+
 var uri = 'mongodb://localhost:27017/movies';
+mongoose.connect(uri);
+
 mongodb.MongoClient.connect(uri, function(error, db) {
     if (error) {
         console.log(error);
