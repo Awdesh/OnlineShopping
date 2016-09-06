@@ -4,7 +4,7 @@
   "description": "MEAN APP",
   "main": "practice.js",
   "scripts": {
-    "test": "mocha test.js",
+    "test": "mocha test/test.js",
     "test-kitten": "mocha -R nyan test.js"
   },
   "dependencies": {
@@ -17,7 +17,11 @@
   "author": "Awdesh Sharma <awdesh.sharma1@gmail.com> (http://awdesh.com/)",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.14.0",
+    "http-status": "^0.2.3",
     "mongoose": "^4.6.0",
-    "underscore": "^1.5.2"
+    "superagent": "^2.2.0",
+    "underscore": "^1.5.2",
+    "wagner-core": "^0.2.0"
   }
 }

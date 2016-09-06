@@ -5,6 +5,7 @@ var schema = require('./schema');
 var uri = 'mongodb://localhost:27017/users';
 mongoose.connect(uri);
 
+// users is collection here.
 var User = mongoose.model('User', schema, 'users');
 
 var user = new User({
@@ -23,9 +24,7 @@ user.save(function(err) {
             console.log(err);
             process.exit(1);
         }
-        // _.each(users, function(err, user) {
         console.log(user);
-        // process.exit(0);
-        // });
+        process.exit(0);
     });
 });
